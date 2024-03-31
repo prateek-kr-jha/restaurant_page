@@ -1,1 +1,1 @@
-- HtmlWebpackPlugin - inject (body) injects script at the end of the htl file.
+- HtmlWebpackPlugin - inject (body) injects script at the end of the html file.
