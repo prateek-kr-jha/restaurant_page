@@ -1,7 +1,15 @@
+@font-face {
+    font-family: "Babylonica";
+    src: url('./Babylonica/Babylonica-Regular.ttf');
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url("./Montserrat/Montserrat-VariableFont_wght.ttf");
+}
 body {
     height: 100vh;
     width: 100vw;
-    /* overflow: auto; */
 }
 header {
     height: 10%;
@@ -15,4 +23,28 @@ nav {
     display: flex;
     background-image: url("./ice-cream.png");
     background-size: 100% 100%;
+}
+
+.cover-text {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: Montserrat;
+}
+
+.cover-text h1 {
+    font-weight: bolder;
+    color: #ffffff ;
+    font-size: 50px;
+
+}
+
+.cover-text p {
+    font-weight: bolder;
+    font-size: 32px;
+    color: #e78d26;
+
 }
