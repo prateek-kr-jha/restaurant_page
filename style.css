@@ -1,27 +1,18 @@
 body {
     height: 100vh;
     width: 100vw;
+    /* overflow: auto; */
+}
+header {
+    height: 10%;
+}
+nav {
+    height: 100%;
 }
 #content {
     height: 90%;
     width: 100%;
     display: flex;
+    background-image: url("./ice-cream.png");
+    background-size: 100% 100%;
 }
-.cover-img, .cover-text {
-    height: 100%;
-    width: 50%;
-} 
-img {
-    height: 100%;
-    /* width: 100%; */
-    object-fit: fill;
-}
-.cover-text {
-    /* background-color: #160002; */
-    background-image: linear-gradient(to right, #121212,#050000);
-}
-/* > img {
-    width: 40vw;
-    height: 80vh;
-} */
-/* #160002 */
