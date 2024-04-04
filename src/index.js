@@ -1,8 +1,18 @@
-import { content } from "./pages/home.js";
-// alert("Hello, Prateek!");
-console.log(content, "container");
-// webpack : handle fonts, proper error message
+import '../reset.css';
+import '../style.css';
 
-// const content = document.querySelector("#content");
-// content.innerHTML = `<div>Hello World</div>`;
-console.log(content);
+const content = document.querySelector("#content");
+
+function component() {
+    const cover_text = document.createElement('div');
+    cover_text.classList.add("cover-text");
+    const heading = document.createElement('h1');
+    heading.innerText = `PJ's Ice_cream Parlour`;
+    const description = document.createElement('p');
+    description.innerText = "Where sweetness meets memories";
+    cover_text.appendChild(heading);
+    cover_text.appendChild(description);
+    return cover_text;
+}
+
+content.appendChild(component());
