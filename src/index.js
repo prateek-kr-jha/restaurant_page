@@ -44,14 +44,14 @@ buttons.forEach(button => {
         button.addEventListener('click', () => {
             content.innerHTML = '';
             // content.appendChild(home());
-            about()
+            content.appendChild(about());
+            // about()
         })
     } else if(button.classList.contains("menu")) {
         // console.log(button.classList);
         button.addEventListener('click', () => {
             content.innerHTML = '';
-            // content.appendChild(home());
-            menu();
+            content.appendChild(menu());
         })
     }
     // button.addEventListener('click')

@@ -1,0 +1,28 @@
+@font-face {
+    font-family: "Montserrat";
+    src: url("../../Montserrat/Montserrat-VariableFont_wght.ttf");
+}
+.about-text {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: Montserrat;
+    text-align: center;
+}
+
+.about-text h1 {
+    font-weight: bolder;
+    color: #e78d26;
+    font-size: 36px;
+
+}
+
+.about-text p {
+    font-weight: bold;
+    font-size: 18px;
+    color: #ffffff;
+
+}
