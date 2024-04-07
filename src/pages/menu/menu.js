@@ -39,9 +39,11 @@ const menu = () => {
         list_div_heading.innerText = menu_list[i].title;
         list_div.appendChild(list_div_heading);
         const list = document.createElement("ul");
-        for(let j = 0; j < menu_list[i].items.length; j++) {
+        // for(let j = 0; j < menu_list[i].items.length; j++) {
+        for(const item of menu_list[i].items) {
             const list_element = document.createElement("li");
-            list_element.innerText = menu_list[i].items[j];
+            console.log(item);
+            list_element.innerText = item;
             list.appendChild(list_element);
         }
 
