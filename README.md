@@ -9,3 +9,6 @@ icons: https://pictogrammers.com/library/mdi/
 color palettes: https://tailwindcss.com/docs/customizing-colors
 
 webpack config resolve.extensions tells in which order to resolve files if they have the same name
+
+
+demo: https://prateek-kr-jha.github.io/restaurant_page/
